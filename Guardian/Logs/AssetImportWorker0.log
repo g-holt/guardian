@@ -15,7 +15,7 @@ C:/Users/gholt/Desktop/Unity/guardian/Guardian
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61613
+60839
 Successfully changed project path to: C:/Users/gholt/Desktop/Unity/guardian/Guardian
 C:/Users/gholt/Desktop/Unity/guardian/Guardian
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/gholt/Desktop/Unity/guardian/Guardian
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 142.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 191.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.16f1 (559fc0ec6670)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/Resources/UnitySubsystems
@@ -63,39 +63,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016923 seconds.
+Registered in 0.014089 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 122.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 129.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.972 seconds
+- Completed reload, in  1.043 seconds
 Domain Reload Profiling:
-	ReloadAssembly (973ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1045ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (663ms)
-			LoadAssemblies (113ms)
+		EndReloadAssembly (716ms)
+			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
+			SetupTypeCache (163ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (402ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (428ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (123ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (197ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (215ms)
 				ProcessInitializeOnLoadMethodAttributes (65ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -103,24 +103,24 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008501 seconds.
+Registered in 0.009343 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 108.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 215.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Don't forget to download the bonus content from the Asset Store!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-Startup:.cctor () (at Assets/InfinityPBR/Editor/SFB_LoadWelcome.cs:12)
+Startup:.cctor () (at Assets/Asset Packs/Minotaur/Editor/SFB_LoadWelcome.cs:12)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-(Filename: Assets/InfinityPBR/Editor/SFB_LoadWelcome.cs Line: 12)
+(Filename: Assets/Asset Packs/Minotaur/Editor/SFB_LoadWelcome.cs Line: 12)
 
 http://www.infinitypbr.com - Please Review & Rate!
 Delete Assets/InfinityPBR/Editor/SFB_LoadWelcome.cs to stop this message.
@@ -128,22 +128,22 @@ UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-Startup:.cctor () (at Assets/InfinityPBR/Editor/SFB_LoadWelcome.cs:13)
+Startup:.cctor () (at Assets/Asset Packs/Minotaur/Editor/SFB_LoadWelcome.cs:13)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-(Filename: Assets/InfinityPBR/Editor/SFB_LoadWelcome.cs Line: 13)
+(Filename: Assets/Asset Packs/Minotaur/Editor/SFB_LoadWelcome.cs Line: 13)
 
 Visit the Infinity PBR asset pages on the Asset Store to find links to bonus downloads for free. Find support, pre-release content and more at https://InfinityPBR.com
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-Startup:.cctor () (at Assets/InfinityPBR/Editor/SFB_LoadWelcome.cs:14)
+Startup:.cctor () (at Assets/Asset Packs/Minotaur/Editor/SFB_LoadWelcome.cs:14)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-(Filename: Assets/InfinityPBR/Editor/SFB_LoadWelcome.cs Line: 14)
+(Filename: Assets/Asset Packs/Minotaur/Editor/SFB_LoadWelcome.cs Line: 14)
 
 Please review & rate your purchase.  Your positive review let's
 others know they can trust our work.  We can't thank you enough!
@@ -151,61 +151,61 @@ UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-Startup:.cctor () (at Assets/InfinityPBR/Editor/SFB_LoadWelcome.cs:15)
+Startup:.cctor () (at Assets/Asset Packs/Minotaur/Editor/SFB_LoadWelcome.cs:15)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-(Filename: Assets/InfinityPBR/Editor/SFB_LoadWelcome.cs Line: 15)
+(Filename: Assets/Asset Packs/Minotaur/Editor/SFB_LoadWelcome.cs Line: 15)
 
 Cancelling DisplayDialogComplex: www.InfinityPBR.com: Please Register, Review & Rate! Your Asset Store purchase contains more than what's included! In an effort to keep the download size down, all customization files and other bonus content (Concept Art etc), can be downloaded from my the bonus packs on the Asset Store. Visit the asset page to find the links to the free bonus packs.
 
 Please review & rate your purchase.  Your review & rating helps others know how high quality our work is!
 This should not be called in batch mode.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Startup:.cctor () (at Assets/InfinityPBR/Editor/SFB_LoadWelcome.cs:18)
+Startup:.cctor () (at Assets/Asset Packs/Minotaur/Editor/SFB_LoadWelcome.cs:18)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-[Assets/InfinityPBR/Editor/SFB_LoadWelcome.cs line 18]
+[Assets/Asset Packs/Minotaur/Editor/SFB_LoadWelcome.cs line 18]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.686 seconds
+- Completed reload, in  2.785 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1688ms)
-		BeginReloadAssembly (183ms)
+	ReloadAssembly (2787ms)
+		BeginReloadAssembly (314ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1335ms)
-			LoadAssemblies (143ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (2213ms)
+			LoadAssemblies (226ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (373ms)
+			SetupTypeCache (582ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (725ms)
+			RebuildScriptCaches (185ms)
+			SetupLoadedEditorAssemblies (1144ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (456ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (216ms)
+				BeforeProcessingInitializeOnLoad (326ms)
+				ProcessInitializeOnLoadAttributes (525ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3618 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.4 MB). Loaded Objects now: 4075.
-Memory consumption went from 136.1 MB to 134.6 MB.
-Total: 8.744300 ms (FindLiveObjects: 0.911400 ms CreateObjectMapping: 0.582700 ms MarkObjects: 6.408400 ms  DeleteObjects: 0.839800 ms)
+Unloading 30 unused Assets / (1.4 MB). Loaded Objects now: 4076.
+Memory consumption went from 136.3 MB to 134.8 MB.
+Total: 5.525600 ms (FindLiveObjects: 0.536300 ms CreateObjectMapping: 0.372500 ms MarkObjects: 4.050300 ms  DeleteObjects: 0.564500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -219,170 +219,1583 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 638726.004867 seconds.
+  Time since last request: 714545.054978 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Scripts/SFB_MinotaurDemo.cs
+  artifactKey: Guid(1c1cc061ba03045f184bc3245c1a5232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Scripts/SFB_MinotaurDemo.cs using Guid(1c1cc061ba03045f184bc3245c1a5232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd717be25729742d0f8b0cceb4f569075') in 0.060631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.037709 seconds.
   path: Assets/Scripts/PlayerMovement.cs
   artifactKey: Guid(19ab2234e43c9074cbbc30d91fa492f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(19ab2234e43c9074cbbc30d91fa492f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9023b00d323f13295ebcebe081079ee1') in 0.060954 seconds 
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(19ab2234e43c9074cbbc30d91fa492f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5765bfdc9b9224b1d5e32eab02b0eac') in 0.007366 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006015 seconds.
+Registered in 0.008783 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.388 seconds
+- Completed reload, in  2.542 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1389ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (2543ms)
+		BeginReloadAssembly (331ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (2017ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1072ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (611ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (403ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4079.
+Memory consumption went from 135.1 MB to 133.7 MB.
+Total: 6.347400 ms (FindLiveObjects: 0.516200 ms CreateObjectMapping: 0.430300 ms MarkObjects: 4.188400 ms  DeleteObjects: 1.210500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006471 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.265 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2266ms)
+		BeginReloadAssembly (204ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1046ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1815ms)
+			LoadAssemblies (156ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (423ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (422ms)
+			SetupTypeCache (644ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (795ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (34ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (274ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (539ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4082.
+Memory consumption went from 135.1 MB to 133.7 MB.
+Total: 6.385600 ms (FindLiveObjects: 0.472700 ms CreateObjectMapping: 0.360200 ms MarkObjects: 4.609400 ms  DeleteObjects: 0.941300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007985 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.025 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2026ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1657ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (519ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (780ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (526ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4085.
+Memory consumption went from 135.2 MB to 133.7 MB.
+Total: 4.848900 ms (FindLiveObjects: 0.378200 ms CreateObjectMapping: 0.242600 ms MarkObjects: 3.666800 ms  DeleteObjects: 0.559400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007644 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.544 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1545ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1276ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (669ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (468ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4088.
+Memory consumption went from 135.2 MB to 133.8 MB.
+Total: 5.050700 ms (FindLiveObjects: 0.396900 ms CreateObjectMapping: 0.424100 ms MarkObjects: 3.649200 ms  DeleteObjects: 0.578500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 266.666196 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/_Prefabs/Minotaur Demo.prefab
+  artifactKey: Guid(34c454c504e02448da0eec60222dbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/_Prefabs/Minotaur Demo.prefab using Guid(34c454c504e02448da0eec60222dbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e3fdbf280bd123d4ce8f165b921de5') in 0.472992 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007203 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.684 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1685ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1410ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (369ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (692ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4098.
+Memory consumption went from 152.2 MB to 150.8 MB.
+Total: 6.971400 ms (FindLiveObjects: 0.364900 ms CreateObjectMapping: 0.243800 ms MarkObjects: 5.438200 ms  DeleteObjects: 0.921300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 367.653585 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/_Fluffy Support/FluffyURP.unitypackage
+  artifactKey: Guid(12a82c66d89dd754ca40d41e96a557d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/_Fluffy Support/FluffyURP.unitypackage using Guid(12a82c66d89dd754ca40d41e96a557d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0b33da77077d29551eba487bef027f') in 0.030649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.444406 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/_Fluffy Support/Minotaur - Fluffy Grooming Tool.pdf
+  artifactKey: Guid(97551a112491b68428c4c1c4a6026036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/_Fluffy Support/Minotaur - Fluffy Grooming Tool.pdf using Guid(97551a112491b68428c4c1c4a6026036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafc7f96bb89669002374ba6e8eee79d') in 0.015186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.760186 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Particles
+  artifactKey: Guid(73256923c02164cef9c77d9cbb042d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Particles using Guid(73256923c02164cef9c77d9cbb042d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e21f69cb070faa14db401d0ff1cfe7') in 0.007209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.203925 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Particles/Minotaur Breath.prefab
+  artifactKey: Guid(b7cfd462e5e68485ab7d9ae53272c35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Particles/Minotaur Breath.prefab using Guid(b7cfd462e5e68485ab7d9ae53272c35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21703399bbf8f934647cc1c96b46e20') in 0.066507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.081187 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures 2/My Particles/Clouds 1.psd
+  artifactKey: Guid(0cad3faf3da07418a8cc351accb3ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures 2/My Particles/Clouds 1.psd using Guid(0cad3faf3da07418a8cc351accb3ee4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cc9d0f674c290ce55a0d3af7193ea7') in 0.087015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.291767 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurArmor1.mat
+  artifactKey: Guid(2c041bfe3b7384abb862e4227a23ada1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurArmor1.mat using Guid(2c041bfe3b7384abb862e4227a23ada1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474ca7792732f2cd89d8cec4df2548ca') in 0.070705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurBodyBlack.mat
+  artifactKey: Guid(484b33c6b689b47d49d6044134da0db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurBodyBlack.mat using Guid(484b33c6b689b47d49d6044134da0db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bd5c183a27893d820d9b4e3aa45d35') in 0.052109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurBodyRed.mat
+  artifactKey: Guid(6bc5e2e0933384e92bdb0415c09bd266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurBodyRed.mat using Guid(6bc5e2e0933384e92bdb0415c09bd266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b9069b124ee46f654d5607303428ae') in 0.034435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurBodyGreen.mat
+  artifactKey: Guid(9cdc5e42e59014ec7addfd0a4dae660f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurBodyGreen.mat using Guid(9cdc5e42e59014ec7addfd0a4dae660f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f812b80e0bc4ae5c4d9d7606cec7e333') in 0.045905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurBodyOrange.mat
+  artifactKey: Guid(01ca0ec55481e403caf1c1eeec8f4d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurBodyOrange.mat using Guid(01ca0ec55481e403caf1c1eeec8f4d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e545d332a88b65f32e346d991154e60') in 0.045531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurAxe4.mat
+  artifactKey: Guid(523da997e422441119255439f54ff731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurAxe4.mat using Guid(523da997e422441119255439f54ff731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e4fdc6cf23668900d1d2cac7b04ce1') in 0.058673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurBodyWhite.mat
+  artifactKey: Guid(c71aa2665d24d457285af0007b62289d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurBodyWhite.mat using Guid(c71aa2665d24d457285af0007b62289d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3a73f378b20d32a16b19952c42c072') in 0.048965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurAxe1.mat
+  artifactKey: Guid(8b3711b10aae54b2bba5e59c6704d1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/MinotaurAxe1.mat using Guid(8b3711b10aae54b2bba5e59c6704d1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed4e60445e58c57fb32f44e67e64db4') in 0.035435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.042994 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/Axe 1 Bloody
+  artifactKey: Guid(8b1165185ffd54bfba325faeb28e2ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/Axe 1 Bloody using Guid(8b1165185ffd54bfba325faeb28e2ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4524e16b9d0eb2c02d08cba4ee3916') in 0.010805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053022 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/Axe 1 Bloody/axe_Axe_ncl1_1SG_AlbedoOpacity.png
+  artifactKey: Guid(b497e536c13a448729e7aec835a41ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Textures & Materials/Axe 1 Bloody/axe_Axe_ncl1_1SG_AlbedoOpacity.png using Guid(b497e536c13a448729e7aec835a41ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48d2f2865b6ebab1fc91fad2ac02e6c') in 0.069687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.835776 seconds.
+  path: Assets/Asset Packs/Minotaur/Demo Scripts/WardrobePrefabManager.cs
+  artifactKey: Guid(b20a10bdb180447ad867ea2ec202d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Demo Scripts/WardrobePrefabManager.cs using Guid(b20a10bdb180447ad867ea2ec202d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc50684eb66ee85eeead2df163c8c94b') in 0.008469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.565926 seconds.
+  path: Assets/Asset Packs/Minotaur/Demo Scripts/SFB_BlendShapesManager.cs
+  artifactKey: Guid(c90a720fc10b6450da271a65db9e647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Demo Scripts/SFB_BlendShapesManager.cs using Guid(c90a720fc10b6450da271a65db9e647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f275377a82ec4fb2d079362a3ad65dd0') in 0.008458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 331.093437 seconds.
+  path: Assets/Asset Packs/Minotaur/Post Processing/PostProcessVolumeForPhotos.asset
+  artifactKey: Guid(ded34b301e0632840a931d5315b1ca87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Post Processing/PostProcessVolumeForPhotos.asset using Guid(ded34b301e0632840a931d5315b1ca87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e9192e111befae309b7dd5ef3b3c78') in 0.011831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.945903 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(fcaddd33fefc69844b19b6619e2d6b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(fcaddd33fefc69844b19b6619e2d6b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df6d8425a32ef400c8f3a2c95f9fd7a') in 0.010995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.545851 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(e402c706370b3fd4390b9926148b9c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(e402c706370b3fd4390b9926148b9c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5d16b5583dd9647f5450e8fbf769fd') in 0.245041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.420377 seconds.
+  path: Assets/Prefabs/Player Container.prefab
+  artifactKey: Guid(e402c706370b3fd4390b9926148b9c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player Container.prefab using Guid(e402c706370b3fd4390b9926148b9c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc90fa3fa9441163fc58dcbaaaaa04e') in 0.185821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.893358 seconds.
+  path: Assets/Prefabs/Player Container.prefab
+  artifactKey: Guid(e402c706370b3fd4390b9926148b9c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player Container.prefab using Guid(e402c706370b3fd4390b9926148b9c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a494613dbb5a4100710cb1cfb89c9fb2') in 0.177766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.324025 seconds.
+  path: Assets/Prefabs/Player Container.prefab
+  artifactKey: Guid(e402c706370b3fd4390b9926148b9c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player Container.prefab using Guid(e402c706370b3fd4390b9926148b9c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9963a2ff0601a34abeb25dfd33538c') in 0.244248 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006967 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.823 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1824ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1550ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (831ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (605ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4136.
+Memory consumption went from 153.1 MB to 151.7 MB.
+Total: 5.778300 ms (FindLiveObjects: 0.321100 ms CreateObjectMapping: 0.266200 ms MarkObjects: 4.545100 ms  DeleteObjects: 0.644600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007226 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.520 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1520ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1252ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (608ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4139.
+Memory consumption went from 153.2 MB to 151.7 MB.
+Total: 4.241400 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.203500 ms MarkObjects: 3.050600 ms  DeleteObjects: 0.655200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1328.060128 seconds.
+  path: Assets/Asset Packs/Minotaur/Particle Textures/blurred cirlce 1.mat
+  artifactKey: Guid(beedd3f4159cb4964a1c6ee95a2d09f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Particle Textures/blurred cirlce 1.mat using Guid(beedd3f4159cb4964a1c6ee95a2d09f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b394f95a0803fa339d3d740e13039eeb') in 0.184352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Clean Hollow Circle.mat
+  artifactKey: Guid(0d9ef44b920664049b724877868db4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Clean Hollow Circle.mat using Guid(0d9ef44b920664049b724877868db4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8649aeb0895db4016d36333eb409c0a') in 0.040952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds 2.mat
+  artifactKey: Guid(e8d8c40aa500a4e93afdba994a99106f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds 2.mat using Guid(e8d8c40aa500a4e93afdba994a99106f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee8c18de0cac9aa19dda7374cae2405') in 0.080066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/circle flash.mat
+  artifactKey: Guid(2f5579c71e6154ae6945b03d536e934b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/circle flash.mat using Guid(2f5579c71e6154ae6945b03d536e934b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c8b2d36cde51aaaab975756844f164') in 0.028428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Broken Circle.mat
+  artifactKey: Guid(37d4426201af443dc9f1dce1a90983be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Broken Circle.mat using Guid(37d4426201af443dc9f1dce1a90983be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401147830954313976908c2ba2a82891') in 0.022378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Circle Fade Edges.mat
+  artifactKey: Guid(03c97f2236ff64ff89fdae21a33331ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Circle Fade Edges.mat using Guid(03c97f2236ff64ff89fdae21a33331ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95f4651f8d8e06ce454d011c69d28d1') in 0.033655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Circle Fade Edges 3.mat
+  artifactKey: Guid(03d9e52bcadf74b149b87c5ac1b355cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Circle Fade Edges 3.mat using Guid(03d9e52bcadf74b149b87c5ac1b355cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a612f6ba63eed94a62f54715bd04395') in 0.025433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/circle with spikes.mat
+  artifactKey: Guid(5495e1423214b405b925b3788d1bd292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/circle with spikes.mat using Guid(5495e1423214b405b925b3788d1bd292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6aa0bc56fa2fe85fd0704e950ac7b6') in 0.044977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Clouds 2.mat
+  artifactKey: Guid(747425827bd2749ac888e6bd1bd6c97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Clouds 2.mat using Guid(747425827bd2749ac888e6bd1bd6c97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa17332b2b9e489719d73ed23be9eb1') in 0.025291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/circle flash.mat
+  artifactKey: Guid(e2b477e74ba864d4c90864c1048f06bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/circle flash.mat using Guid(e2b477e74ba864d4c90864c1048f06bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316a3ecb308b81ccf4b7500435b7dce3') in 0.019261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Circle Fade Edges 1.mat
+  artifactKey: Guid(667b98b1f2ac64b4eb98ca8832cac5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Circle Fade Edges 1.mat using Guid(667b98b1f2ac64b4eb98ca8832cac5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edc5ba25b8ef763bea8eb78ca4a29da') in 0.023180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Circle Fade Edges 3.mat
+  artifactKey: Guid(86bedb5f3ca314530af50be738ae6f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Circle Fade Edges 3.mat using Guid(86bedb5f3ca314530af50be738ae6f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d54602b84b864417913a8fceb7e418') in 0.021763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Broken Circle.mat
+  artifactKey: Guid(150a2e5ff363b4b0b8f268a198041d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Broken Circle.mat using Guid(150a2e5ff363b4b0b8f268a198041d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc87dcc54f24cabe4da378cf4db535f8') in 0.019972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Clean Hollow Circle.mat
+  artifactKey: Guid(6f576ed29bfa9486581b99b1ef55dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Clean Hollow Circle.mat using Guid(6f576ed29bfa9486581b99b1ef55dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25cbb4616060cf2f43aef146739ee1b') in 0.023935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds 1.mat
+  artifactKey: Guid(15071da370eeb4b9ea6cef6c3fb2f9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds 1.mat using Guid(15071da370eeb4b9ea6cef6c3fb2f9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6470f98c38abf24c48ad6e2295b4c3') in 0.021736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/bolt.mat
+  artifactKey: Guid(38476021b4c334c51a0eefbcf1a09fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/bolt.mat using Guid(38476021b4c334c51a0eefbcf1a09fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d7f094572e5a83c4894270c8cc480c') in 0.025186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Circle Fade Edges.mat
+  artifactKey: Guid(79dd1b69b2d844fa9b6d051e4a948bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Circle Fade Edges.mat using Guid(79dd1b69b2d844fa9b6d051e4a948bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd988b59302b90068888a83e9c5218e1') in 0.020173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.218666 seconds.
+  path: Assets/Asset Packs/Minotaur/Materials/Eye Reflect.mat
+  artifactKey: Guid(c86526feaf3f9467589a7869809bcc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Materials/Eye Reflect.mat using Guid(c86526feaf3f9467589a7869809bcc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9def24b672c55d91ef52bb2c1e18dab') in 0.046536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Weeper Faded Circle.mat
+  artifactKey: Guid(a1eaf96237b86461283dc731e3038821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Weeper Faded Circle.mat using Guid(a1eaf96237b86461283dc731e3038821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1fc39d376b5d338d3d0d76f6020f20') in 0.024630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/half moon black.mat
+  artifactKey: Guid(789459bfa52da47c6b4ad3fb2d138653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/half moon black.mat using Guid(789459bfa52da47c6b4ad3fb2d138653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd393a422989088eea53e7186094a22c3') in 0.064665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/half moon black.mat
+  artifactKey: Guid(38c8aa83303b2407fb5b01567f0ca079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/half moon black.mat using Guid(38c8aa83303b2407fb5b01567f0ca079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd320964cbbef9d4caf91cd7851ba48c4') in 0.020273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/Minotaur/Fonts/InfinityPBR.ttf
+  artifactKey: Guid(346b8f649af0b4fc3bc05bf03232285d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Fonts/InfinityPBR.ttf using Guid(346b8f649af0b4fc3bc05bf03232285d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3307400dd7f764423831bc86c22151') in 0.064060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/half moon.mat
+  artifactKey: Guid(c8f93e5209de745bc9c389d80e09f75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/half moon.mat using Guid(c8f93e5209de745bc9c389d80e09f75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77a74a1b40417c96f831424c39d0491') in 0.034863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/short drop shoot forward 2.mat
+  artifactKey: Guid(ebd8e7a1ce2f2434f918a6983e634498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/short drop shoot forward 2.mat using Guid(ebd8e7a1ce2f2434f918a6983e634498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fd6a54f248f7153db551a8b9dc2326') in 0.021152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.638435 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Clouds B 1.mat
+  artifactKey: Guid(229900c4dab1b4681979d6ea57df834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Clouds B 1.mat using Guid(229900c4dab1b4681979d6ea57df834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1502348fcff2591ac0e67dcd31f91d') in 0.031966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds B 3.mat
+  artifactKey: Guid(794d2af1bf10943eba1f037ce19b633b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds B 3.mat using Guid(794d2af1bf10943eba1f037ce19b633b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a621a6f6d9376d9bb63c89692c6c06') in 0.035050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Clouds B 4.mat
+  artifactKey: Guid(49da5eb0d093741818719a9af5b4233a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Clouds B 4.mat using Guid(49da5eb0d093741818719a9af5b4233a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aef719b0e886274b0c335ef132a9049') in 0.029258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.146203 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Clouds B 5.mat
+  artifactKey: Guid(cbead5d31caea4e439f1dc3348855635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Clouds B 5.mat using Guid(cbead5d31caea4e439f1dc3348855635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075e114c7a277e1c21f57a25e4b6dd91') in 0.024263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds B 5.mat
+  artifactKey: Guid(fb442badfd08d49f3a8141e81cc7dcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds B 5.mat using Guid(fb442badfd08d49f3a8141e81cc7dcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816a7cd66dd110616ea8db34dd0ebe54') in 0.023019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Clouds B 6.mat
+  artifactKey: Guid(b3548dfc7c7d44e918d65233579e909f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Clouds B 6.mat using Guid(b3548dfc7c7d44e918d65233579e909f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d833901e4a1fe20ef33e8d9c8203740') in 0.030231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.364136 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds B 7.mat
+  artifactKey: Guid(3cf3f240c6e404affa2f3aff59934391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds B 7.mat using Guid(3cf3f240c6e404affa2f3aff59934391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b904b9ed0bc44e7ef508450ee469737') in 0.022185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Clouds C 2.mat
+  artifactKey: Guid(24e3719395a264945b4192def524e500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Clouds C 2.mat using Guid(24e3719395a264945b4192def524e500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd461a4ae031ea44a3c0ea48d36ce77') in 0.049222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds D 1.mat
+  artifactKey: Guid(917e76023f3784e3198f55eaa2d5fcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds D 1.mat using Guid(917e76023f3784e3198f55eaa2d5fcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9c3053da78a5d8bd530429cb29ee48') in 0.019944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.348659 seconds.
+  path: Assets/Asset Packs/Minotaur/Particle Textures/Clouds D 1.mat
+  artifactKey: Guid(45f44922fe8174cfc96dca8e149019d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Particle Textures/Clouds D 1.mat using Guid(45f44922fe8174cfc96dca8e149019d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e2bc94a4d0162f16022b69ddf0d81e') in 0.019573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Clouds E 2.mat
+  artifactKey: Guid(ac94d03c645814975a241d0f51b003be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Clouds E 2.mat using Guid(ac94d03c645814975a241d0f51b003be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3595338ec56007014844f841b848ee92') in 0.037694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds E 2.mat
+  artifactKey: Guid(2b5e187e4660e475880324156e0f0444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Clouds E 2.mat using Guid(2b5e187e4660e475880324156e0f0444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd097d6bdc7ce2a26d46e31298933795e') in 0.018736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091815 seconds.
+  path: Assets/Asset Packs/Minotaur/Particle Textures/Clouds E 3.mat
+  artifactKey: Guid(aa4405f1a998b470089d803e940a6e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Particle Textures/Clouds E 3.mat using Guid(aa4405f1a998b470089d803e940a6e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3686561df3fd167100cf2fc1bb7e9925') in 0.031314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/dark circle.mat
+  artifactKey: Guid(eb39135e6e27542e48b40700f3572a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/dark circle.mat using Guid(eb39135e6e27542e48b40700f3572a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f3c631d2b2d6cf47373d0630fd4cc8') in 0.039373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/eye circle.mat
+  artifactKey: Guid(2195086fe5e5c4ad3aa1c66418117733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/eye circle.mat using Guid(2195086fe5e5c4ad3aa1c66418117733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9106acf0222e06a6e406f32f14da46') in 0.022447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/electric animation 5x4.mat
+  artifactKey: Guid(66229409336a644918623469e72b201d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/electric animation 5x4.mat using Guid(66229409336a644918623469e72b201d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cf6461c95e40a6e543568d595b89d7') in 0.025542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/electric animation 5x4.mat
+  artifactKey: Guid(75079e697f9944a08bbfae3e103231db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/electric animation 5x4.mat using Guid(75079e697f9944a08bbfae3e103231db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009609574b7873372fce7103ea649eba') in 0.020724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/dark circle.mat
+  artifactKey: Guid(8f15bf7c566424f0d95d565afe8698c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/dark circle.mat using Guid(8f15bf7c566424f0d95d565afe8698c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3025c5e06a3e53d8032a2fae6b8345') in 0.015192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/eye circle.mat
+  artifactKey: Guid(03f0c2ca17c1b427bbc46e43f9126650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/eye circle.mat using Guid(03f0c2ca17c1b427bbc46e43f9126650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed09e428cd05ea799c1ed9a443df53d') in 0.018907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.430865 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/eye circle 2.mat
+  artifactKey: Guid(5f91ae23fb384446db6447ea250e46fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/eye circle 2.mat using Guid(5f91ae23fb384446db6447ea250e46fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4553f2d5bbcd6246aaa82c82ff0693b6') in 0.020560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.798518 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/hollow blob.mat
+  artifactKey: Guid(66fb468cf8eef4a62adac7f7d3558d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/hollow blob.mat using Guid(66fb468cf8eef4a62adac7f7d3558d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e75c110d31c0f8a608d2ffd91aa7e16') in 0.033352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Hollow Circle.mat
+  artifactKey: Guid(116428c470fdd438c82b36e5617deeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Hollow Circle.mat using Guid(116428c470fdd438c82b36e5617deeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b6a90ab7dbca41c45c71ec2c4c0daa') in 0.025767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.542112 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Hollow Circle.mat
+  artifactKey: Guid(9ba7156b49c094e6ca6c5779e8aafbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Hollow Circle.mat using Guid(9ba7156b49c094e6ca6c5779e8aafbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07b0bdd4c05f554ae0cd15af66fd8eb') in 0.021745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/liquid spewing 2.mat
+  artifactKey: Guid(6afec6e51936a43c1921c84ac1938158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/liquid spewing 2.mat using Guid(6afec6e51936a43c1921c84ac1938158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff119b6bd39402da12a8e80ecd0b66af') in 0.033299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.251257 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(8c2d84354fb483b4ea5f63c45b6a50d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(8c2d84354fb483b4ea5f63c45b6a50d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c18dad3f3c2d209f6a49591d7433383') in 0.043515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.422877 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/pentagram.mat
+  artifactKey: Guid(1e233ec25589f4a4bac72e7138d5c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/pentagram.mat using Guid(1e233ec25589f4a4bac72e7138d5c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5942023ee69083a866b41f4fecfa101a') in 0.021107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Rune.mat
+  artifactKey: Guid(c219d6db2c0be4b12b4657ea6cb8bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Rune.mat using Guid(c219d6db2c0be4b12b4657ea6cb8bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c048b49afedcb9879e61657ce67ba200') in 0.035393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Rune.mat
+  artifactKey: Guid(8e21d1870555141649883c2cee141e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Rune.mat using Guid(8e21d1870555141649883c2cee141e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eba9a865baf86b80c53c732fc55be86') in 0.052789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.485824 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Rune 2.mat
+  artifactKey: Guid(d1b8ff95a2624463a8154e1c849d1bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Rune 2.mat using Guid(d1b8ff95a2624463a8154e1c849d1bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7da8277e50aa43d8432e214ced7c470') in 0.032098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/shattered ground Black.mat
+  artifactKey: Guid(9a897889e50224e1a8963733be2c78c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/shattered ground Black.mat using Guid(9a897889e50224e1a8963733be2c78c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcda8c21c9e5d3c7f3da02feea313a8') in 0.056045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/shattered ground.mat
+  artifactKey: Guid(2dce061ae577249849012f27d668f743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/shattered ground.mat using Guid(2dce061ae577249849012f27d668f743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d0c516b0a5d2a3933680fe198bfbe7') in 0.033652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.779117 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/shattered ground Black.mat
+  artifactKey: Guid(7888a357f14864424b93ac852a675999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/shattered ground Black.mat using Guid(7888a357f14864424b93ac852a675999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186259eda8100047978c5db85a44c7e0') in 0.018375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/shield.mat
+  artifactKey: Guid(7d50eeb3531514b0ab062258e4887ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/shield.mat using Guid(7d50eeb3531514b0ab062258e4887ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6ee85de73ba5340a06a19f20d84ba5') in 0.031338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.048237 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/single line.mat
+  artifactKey: Guid(93de235e76b7f46459aebbd8c9502e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/single line.mat using Guid(93de235e76b7f46459aebbd8c9502e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947c22ad60f54ff8e2d2a665d81e2177') in 0.022481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/single line black.mat
+  artifactKey: Guid(2dff8af047a534160be13a4c5e96a2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/single line black.mat using Guid(2dff8af047a534160be13a4c5e96a2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b2d49b974b5d76c8ae11ce17402122') in 0.043389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/single line black.mat
+  artifactKey: Guid(bce5461f5c1934e279a110bd05936937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/single line black.mat using Guid(bce5461f5c1934e279a110bd05936937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46359ef96388cab658ff84d25d8b101') in 0.015891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084627 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/skull.mat
+  artifactKey: Guid(9543d46a0c9b64ea4addaa37bc55fe70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/skull.mat using Guid(9543d46a0c9b64ea4addaa37bc55fe70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7b4ac5278539559d94d4a698e9df80') in 0.021434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/skull 1.mat
+  artifactKey: Guid(192fa86395ff647c6a4523d6e5ed29be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/skull 1.mat using Guid(192fa86395ff647c6a4523d6e5ed29be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6f00ab5db70e32ddb79a491bd112cc') in 0.020615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/skull 3.mat
+  artifactKey: Guid(c28b7d0c4b12d41a7a0f6e2c7ae25850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/skull 3.mat using Guid(c28b7d0c4b12d41a7a0f6e2c7ae25850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c5fbecba9adc9843abb8756ecd9e26') in 0.026632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.792721 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/skull 3.mat
+  artifactKey: Guid(5eb9e8a3a8ec5454c8fd40f1568a230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/skull 3.mat using Guid(5eb9e8a3a8ec5454c8fd40f1568a230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cde2a77a25cec7e23cd172fa6debd0e') in 0.019168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/small wisp.mat
+  artifactKey: Guid(97b07507f905a47e99d16fce5598231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/small wisp.mat using Guid(97b07507f905a47e99d16fce5598231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5655647b19bd80be86a415d20afafc7a') in 0.050171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/smoke 1.mat
+  artifactKey: Guid(2a0a1f1b8d779424d952ca66813700d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/smoke 1.mat using Guid(2a0a1f1b8d779424d952ca66813700d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8ab2f507b8bb11d4ace651e6968664') in 0.025626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.616089 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/smoke 1.mat
+  artifactKey: Guid(4668c6e7cb2fe45a78343c21669422a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/smoke 1.mat using Guid(4668c6e7cb2fe45a78343c21669422a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601ada1540f1fed7b66e71387a40b6d3') in 0.019270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/smoke 5.mat
+  artifactKey: Guid(952804952b6f745539697b5106efc7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/smoke 5.mat using Guid(952804952b6f745539697b5106efc7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839278a2cab98f85ff1adfa1fe8efe96') in 0.053858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/smoke 6.mat
+  artifactKey: Guid(323d711e30f6d4ebf868a31da19fde9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/smoke 6.mat using Guid(323d711e30f6d4ebf868a31da19fde9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418426ead8209649914bc0a99c9d3e11') in 0.026525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.619052 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/smoke 7.mat
+  artifactKey: Guid(e306349680ae04a4198f46ab620054c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/smoke 7.mat using Guid(e306349680ae04a4198f46ab620054c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63ceccf4a55f78c6bbe7c96f048dc37') in 0.084867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/smoke 9.mat
+  artifactKey: Guid(c2ae45ac052344b7ab096f5b170c26ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/smoke 9.mat using Guid(c2ae45ac052344b7ab096f5b170c26ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633aa5cb71e8eda4038ab85b03bd6209') in 0.050530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/smoke 10.mat
+  artifactKey: Guid(fbe171047d245449bb446e39e2ecb857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/smoke 10.mat using Guid(fbe171047d245449bb446e39e2ecb857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e160e58d55c9dc129c1b9676953ffe7') in 0.048343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004890 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/smoke 13.mat
+  artifactKey: Guid(15c722541914b4e5d88c7a73b9571ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/smoke 13.mat using Guid(15c722541914b4e5d88c7a73b9571ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b4d3d744480e48ff31aff14a1402f5') in 0.046533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Splot 1.mat
+  artifactKey: Guid(9b97ee3ee37044114812e33234571752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/Splot 1.mat using Guid(9b97ee3ee37044114812e33234571752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb477f5e116db587cf8c69cfa5130033') in 0.033581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/spiked circle.mat
+  artifactKey: Guid(d901e20345aa64845bffffd7b7694cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/spiked circle.mat using Guid(d901e20345aa64845bffffd7b7694cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e722281e4896b6a8080a04e829015ed0') in 0.022065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/star 1.mat
+  artifactKey: Guid(567c12bd983514fbc89a3cbe909fedbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/star 1.mat using Guid(567c12bd983514fbc89a3cbe909fedbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed390a1731a02ac7ca23f181d5947d8') in 0.025912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Splot 1 blur.mat
+  artifactKey: Guid(ba8abe6edf5d947e9a5a9b1a622d1fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/Splot 1 blur.mat using Guid(ba8abe6edf5d947e9a5a9b1a622d1fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5ac3e8e0eebd939234454480ae89a7') in 0.033802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/star 1.mat
+  artifactKey: Guid(3b9e106a460c04d9baa1af8f2ae648c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/star 1.mat using Guid(3b9e106a460c04d9baa1af8f2ae648c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbe4924ab5307e66932f75cdb5a9cd5') in 0.021545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.433642 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/star 2.mat
+  artifactKey: Guid(6b70b5ae34def4086b81abcfe9523638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/star 2.mat using Guid(6b70b5ae34def4086b81abcfe9523638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6df5a8091d160ef929843ba276ae1a') in 0.031699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/star2.mat
+  artifactKey: Guid(4b72c1542385b4d2c86cbb1be31344b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/star2.mat using Guid(4b72c1542385b4d2c86cbb1be31344b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ded6d31ed1ed913a1c53a254e7d0dca') in 0.029193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/thin checkered circle.mat
+  artifactKey: Guid(3ec24a1eed59d4885b29b75f1f96d8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/thin checkered circle.mat using Guid(3ec24a1eed59d4885b29b75f1f96d8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfce59d289eb0f49c87de16610bd7dc') in 0.022846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.482902 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/thin checkered circle 1.mat
+  artifactKey: Guid(3fc7a533575c74121ab20f14a3475bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/thin checkered circle 1.mat using Guid(3fc7a533575c74121ab20f14a3475bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aac70b9b232bf87a1f8a448d89eec72') in 0.029873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/thin checkered circle 2.mat
+  artifactKey: Guid(7c366be9d563c4a3a9747b453c2b2f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/thin checkered circle 2.mat using Guid(7c366be9d563c4a3a9747b453c2b2f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a30752568c1c24ed6d725a86a1eb5d') in 0.024564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/thin checkered circle 3.mat
+  artifactKey: Guid(bd4bf41c7f72c4e37822e4efe514284f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/thin checkered circle 3.mat using Guid(bd4bf41c7f72c4e37822e4efe514284f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446f1237b2e0b6ffbe4a1ad4fdb2515f') in 0.026545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026021 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Weeper Clouds.mat
+  artifactKey: Guid(3409ee2e5049d4223b651c0863118780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Weeper Clouds.mat using Guid(3409ee2e5049d4223b651c0863118780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bee29939dcbe7a2c28847ba5ec1b245') in 0.027068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Weeper Movement.mat
+  artifactKey: Guid(d7e9db12c9b1c4a848c7b52f7180cac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Materials/Weeper Movement.mat using Guid(d7e9db12c9b1c4a848c7b52f7180cac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d08211d81a6a35c122c8221856ca638') in 0.026443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048182 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/yinyang 2.mat
+  artifactKey: Guid(0da953de0af3742839f95cba722507b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Textures/Materials/yinyang 2.mat using Guid(0da953de0af3742839f95cba722507b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6372edb6cbb3f940dd136abaf5766d69') in 0.031717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/yinyang 3.mat
+  artifactKey: Guid(b8df85f7a1b0345998a5d576d65eea59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Textures/Materials/yinyang 3.mat using Guid(b8df85f7a1b0345998a5d576d65eea59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11c1827a4b719eac38d2021e48e3036') in 0.021067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 761.342214 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur Demo.controller
+  artifactKey: Guid(51c29059d7d1d48abad3dc0629b9f271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur Demo.controller using Guid(51c29059d7d1d48abad3dc0629b9f271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff465f94304c62f4508e76d6232a9835') in 0.120297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 623.448358 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx
+  artifactKey: Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx using Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7a1bb7c4f87f95ab3edd9acb5a014e') in 0.521427 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005929 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1993ms)
+		BeginReloadAssembly (378ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (157ms)
+		EndReloadAssembly (1428ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (488ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (631ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (424ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4156.
+Memory consumption went from 153.8 MB to 152.4 MB.
+Total: 6.290300 ms (FindLiveObjects: 0.948600 ms CreateObjectMapping: 0.396400 ms MarkObjects: 4.469600 ms  DeleteObjects: 0.474200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48.332293 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx
+  artifactKey: Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx using Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c536079a4951dd50d3b8a8b0325dc7cd') in 0.492479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.771749 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx
+  artifactKey: Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx using Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28880d149f79bec9de3079a1cca63d7') in 0.467095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.984678 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx
+  artifactKey: Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx using Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5574d77f1badcda31202f5949605f5c2') in 0.431568 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006785 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.053 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2057ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1565ms)
+			LoadAssemblies (181ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (442ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (776ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (526ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4159.
+Memory consumption went from 153.9 MB to 152.5 MB.
+Total: 6.420200 ms (FindLiveObjects: 0.495900 ms CreateObjectMapping: 0.304700 ms MarkObjects: 4.853200 ms  DeleteObjects: 0.764700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 233.837880 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx
+  artifactKey: Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx using Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb72b96b7a078912c70c315f8ef2baa') in 0.534551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 238.889278 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx
+  artifactKey: Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx using Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2207f9e39ab7ca35411120f8cd8c830f') in 0.441269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.617394 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx
+  artifactKey: Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx using Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de10a2186dfdbb93e0f5fbd3090d3ff4') in 0.428616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.210003 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx
+  artifactKey: Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx using Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17a06510c9f791262654fc2ae719e9b') in 0.383866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.482763 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx
+  artifactKey: Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx using Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62707937a30030a1ee9072db974160ba') in 0.393180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 352.545770 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx
+  artifactKey: Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/Minotaur.fbx using Guid(6238dcde895d744d9aeb9ee85425639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b87567dd0e876320e8f8205b54daf96') in 0.413783 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006090 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.693 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1694ms)
+		BeginReloadAssembly (241ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1285ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (413ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (585ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (401ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4162.
+Memory consumption went from 154.2 MB to 152.7 MB.
+Total: 4.996900 ms (FindLiveObjects: 0.788600 ms CreateObjectMapping: 0.424000 ms MarkObjects: 3.198900 ms  DeleteObjects: 0.583700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 437.242873 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/RamStart.anim
+  artifactKey: Guid(91ee76eba20074944935fe3d5c96ac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/RamStart.anim using Guid(91ee76eba20074944935fe3d5c96ac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38e15890b10c65383219b9488b7f2b8') in 0.397621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 520.565646 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/RamStartNoMovement.anim
+  artifactKey: Guid(91ee76eba20074944935fe3d5c96ac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/Models/RamStartNoMovement.anim using Guid(91ee76eba20074944935fe3d5c96ac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db48bdd73a9d1b76e37c90ba19788cd') in 0.374080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.085051 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Courage.prefab
+  artifactKey: Guid(312d2426fde12474f9e96f17926e7499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Courage.prefab using Guid(312d2426fde12474f9e96f17926e7499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739e0fa56e0c6761224d68b5e13ad704') in 0.090355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Fire Breath.prefab
+  artifactKey: Guid(b3c7e3237defa4665a9468e80e0cf78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Fire Breath.prefab using Guid(b3c7e3237defa4665a9468e80e0cf78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de39dc0ce722e7d5a9cd6d7258596cd3') in 0.027022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Ice Breath.prefab
+  artifactKey: Guid(0ceac5d5375134ac883cdc49b7992bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Ice Breath.prefab using Guid(0ceac5d5375134ac883cdc49b7992bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efff44e51115e3b579ed82356cdc0dbb') in 0.022948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Power Heal.prefab
+  artifactKey: Guid(6f668d9b912294a89a66c040d0f4b421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Power Heal.prefab using Guid(6f668d9b912294a89a66c040d0f4b421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e14004b903271aef634504bb6f5d296') in 0.023830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Sparks.prefab
+  artifactKey: Guid(9437d037ae4574bf6999ffedfc373202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Sparks.prefab using Guid(9437d037ae4574bf6999ffedfc373202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae738c7d136f8e2e9fa7fe3a26fa431') in 0.025218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Stone Skin.prefab
+  artifactKey: Guid(9a3dc2ad4dbe5410b83ca5adc0144fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Stone Skin.prefab using Guid(9a3dc2ad4dbe5410b83ca5adc0144fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09225d53258fec58e1da057522fcf90c') in 0.021483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Torch Light.prefab
+  artifactKey: Guid(a58c0679d1eba490db4a04480fda9026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Torch Light.prefab using Guid(a58c0679d1eba490db4a04480fda9026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b931c010e9568b4b76c657364992c0c1') in 0.023871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particles/Particle Acid Ball.prefab
+  artifactKey: Guid(76c4a75f2318d44fe8bc7543f352dcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particles/Particle Acid Ball.prefab using Guid(76c4a75f2318d44fe8bc7543f352dcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fcc8de85ca476aa7b55aa7164f7960') in 0.027688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Healing.prefab
+  artifactKey: Guid(8ad79045c81224a2988c3cdc81c7ada4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Healing.prefab using Guid(8ad79045c81224a2988c3cdc81c7ada4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d50d56f7fe4952d271a4914114e3bdc') in 0.023668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Fire Light.prefab
+  artifactKey: Guid(df5a6d1d9164f4db8a2e6e55b62c91af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Fire Light.prefab using Guid(df5a6d1d9164f4db8a2e6e55b62c91af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ace40c1b21d19e4785d3ef662bc4f8') in 0.027493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic FIre Beam.prefab
+  artifactKey: Guid(cac2bb927977d471386ed5f6cb00a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic FIre Beam.prefab using Guid(cac2bb927977d471386ed5f6cb00a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294680c2a6cc80c33afb036fb371ca33') in 0.026485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Fire Flash.prefab
+  artifactKey: Guid(08e4c1c7aa6904cea876ff1df757c68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Fire Flash.prefab using Guid(08e4c1c7aa6904cea876ff1df757c68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8a4ae70961224c18ac31edabdeae36') in 0.024929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Toxic Cloud.prefab
+  artifactKey: Guid(75030f760c02b427fb1b815acd05db9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Toxic Cloud.prefab using Guid(75030f760c02b427fb1b815acd05db9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4828bc044716661cf7737fba4d5711') in 0.029800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic First Aid.prefab
+  artifactKey: Guid(883b00792941345bdb19d16afe5d226b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic First Aid.prefab using Guid(883b00792941345bdb19d16afe5d226b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc7f16d09d65a63f1e60d7bc0da547c') in 0.024855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Poison Breath.prefab
+  artifactKey: Guid(cedc0705df26342eebc05c3d22aa1a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Poison Breath.prefab using Guid(cedc0705df26342eebc05c3d22aa1a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715808465b463d0fec831534440795a0') in 0.026125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/_Prefabs/Minotaur.prefab
+  artifactKey: Guid(896e16832d0f14875b1ccc3d64b75555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/_InfinityPBR - Minotaur/_Prefabs/Minotaur.prefab using Guid(896e16832d0f14875b1ccc3d64b75555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7199e4cbc53393bceb13dacc66b51ae3') in 0.312663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Spiritual Force.prefab
+  artifactKey: Guid(0c614d47e556e4152af4ccaefa13cb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Spiritual Force.prefab using Guid(0c614d47e556e4152af4ccaefa13cb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4604365159e4c7c1bda719cc20bdd73') in 0.025043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Slow Down.prefab
+  artifactKey: Guid(178539a4a8796452b99b498b0a9c331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Slow Down.prefab using Guid(178539a4a8796452b99b498b0a9c331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195807f3b4a649dc0285c09ebc3848c8') in 0.024782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Fire Ball.prefab
+  artifactKey: Guid(305a87c2136134cf7aa00ab1225c5289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Fire Ball.prefab using Guid(305a87c2136134cf7aa00ab1225c5289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdf4ce89d558f3b5cfadd2fe11a95d9') in 0.028432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Slow Ray.prefab
+  artifactKey: Guid(821d3e999e0c74a5aba2f7955684ed84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Slow Ray.prefab using Guid(821d3e999e0c74a5aba2f7955684ed84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef12e48c861906da778b28544e87fca') in 0.028859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Speed Up.prefab
+  artifactKey: Guid(ad96fa393a05c4639bc715c85ca1acec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Speed Up.prefab using Guid(ad96fa393a05c4639bc715c85ca1acec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4700b167c0026f251e22a99ba6dad4') in 0.026434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Vampiric Curse.prefab
+  artifactKey: Guid(259b3c9da65d74f70b3dc90294eeb10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Magic Spells/Magic Vampiric Curse.prefab using Guid(259b3c9da65d74f70b3dc90294eeb10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059b3dd2b670497f29a76553bbd0bc62') in 0.026048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.925978 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particles/Particle Cold Beam.prefab
+  artifactKey: Guid(c07b3d13839c64955a7e144bcc5269b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particles/Particle Cold Beam.prefab using Guid(c07b3d13839c64955a7e144bcc5269b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685b14a1dfd90cc945512a1954cd7220') in 0.023032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.426364 seconds.
+  path: Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Components/PComponent Mist Forward.prefab
+  artifactKey: Guid(3295e04f83143457384e1f4c11e7b314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Minotaur/Magic Spells & Particles/Particle Components/PComponent Mist Forward.prefab using Guid(3295e04f83143457384e1f4c11e7b314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f71c8487a599246d07a3caa33923f73') in 0.026644 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007352 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.587 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1587ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1320ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (635ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (433ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4166.
+Memory consumption went from 154.7 MB to 153.2 MB.
+Total: 7.348700 ms (FindLiveObjects: 0.422400 ms CreateObjectMapping: 0.294300 ms MarkObjects: 5.208900 ms  DeleteObjects: 1.421200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006459 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1200ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4078.
-Memory consumption went from 135.1 MB to 133.7 MB.
-Total: 3.553900 ms (FindLiveObjects: 0.342700 ms CreateObjectMapping: 0.273700 ms MarkObjects: 2.552700 ms  DeleteObjects: 0.383500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007765 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.539 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1540ms)
-		BeginReloadAssembly (156ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1275ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (413ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (585ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (394ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4081.
-Memory consumption went from 135.1 MB to 133.7 MB.
-Total: 6.595400 ms (FindLiveObjects: 0.354100 ms CreateObjectMapping: 0.486600 ms MarkObjects: 4.617400 ms  DeleteObjects: 1.135700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006605 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gholt\Desktop\Unity\guardian\Guardian\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.769 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1770ms)
-		BeginReloadAssembly (252ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (1305ms)
-			LoadAssemblies (157ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (431ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (583ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (399ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4084.
-Memory consumption went from 135.1 MB to 133.7 MB.
-Total: 7.518600 ms (FindLiveObjects: 0.393000 ms CreateObjectMapping: 0.424400 ms MarkObjects: 6.026300 ms  DeleteObjects: 0.672100 ms)
+Unloading 21 unused Assets / (1.4 MB). Loaded Objects now: 4169.
+Memory consumption went from 154.7 MB to 153.3 MB.
+Total: 3.746400 ms (FindLiveObjects: 0.305000 ms CreateObjectMapping: 0.233900 ms MarkObjects: 2.731400 ms  DeleteObjects: 0.474600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

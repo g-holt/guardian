@@ -42,25 +42,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
-        
-        //moveXPos = moveInput.x * moveSpeed * Time.deltaTime;
-        //moveZPos = moveInput.y * moveSpeed * Time.deltaTime;
-
-        
         if(!Keyboard.current.wKey.isPressed && !Keyboard.current.sKey.isPressed)
         {
-            if(locomotion >  .1f)
-            {
-                locomotion -= Time.deltaTime * deceleration;
-            }
-            else if(locomotion < -.1f)
-            {
-                locomotion += Time.deltaTime * acceleration;
-            }
-            else
-            {
-                locomotion = 0f;
-            }
+            SlowMovement();
         }   
 
         if(moveInput.y > 0f && locomotion < 2f) //RamRun animation is set to 2
@@ -71,18 +55,32 @@ public class PlayerMovement : MonoBehaviour
         {
             locomotion -= Time.deltaTime * deceleration;
         }
-
-
-        //transform.Translate(new Vector3(moveXPos, 0f, moveZPos));
         
         animator.SetFloat(locomotionHash, locomotion);
     }
 
 
-    void OnMove(InputValue value)
-    {   
-        moveInput = value.Get<Vector2>();
+    void SlowMovement()
+    {
+        if(locomotion >  .01f)
+        {
+            locomotion -= Time.deltaTime * deceleration;
+        }
+        else if(locomotion < -.01f)
+        {
+            locomotion += Time.deltaTime * acceleration;
+        }
+        else
+        {
+            locomotion = 0f;
+        }
     }
+
+
+    // void OnMove(InputValue value)
+    // {   
+    //     moveInput = value.Get<Vector2>();
+    // }
 
 
     void OnJump(InputValue value)
