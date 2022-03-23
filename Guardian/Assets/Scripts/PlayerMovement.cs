@@ -32,7 +32,6 @@ public class PlayerMovement : MonoBehaviour
     void Move()
     {
         moveXPos = moveInput.x * moveSpeed * Time.deltaTime;
-        moveYPos = 
         moveZPos = moveInput.y * moveSpeed * Time.deltaTime;
 
         transform.Translate(new Vector3(moveXPos, 0f, moveZPos));
@@ -49,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(!value.isPressed) { return; }
         
-        transform.Translate(new Vector3(moveXPos, jumpHeight * Time.deltaTime, moveZPos));
+        rb.velocity = new Vector3(0f, jumpHeight, 0f);
         Debug.Log(value.Get());
     }
 
