@@ -14,10 +14,10 @@ public class PlayerMovement : MonoBehaviour
     PlayerAnimation playerAnimation;
     
     bool isMoving;
-    bool isTurning;
     float moveYPos;
     float moveZPos;
     float moveRotation;
+    public bool isTurning;
 
 
     void Start()
@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
-       if(isTurning && moveInput.y == 0) { return; }
+        if(isTurning && moveInput.y == 0) { return; }
         
         moveZPos = playerAnimation.velocity * moveSpeed * Time.deltaTime;
 
