@@ -38,7 +38,7 @@ public class PlayerAnimation : MonoBehaviour
 
     void AnimateMovement()
     {
-        if(moveInput.y == 0)
+        if(moveInput.x == 0 && moveInput.y == 0)
         {
             SlowAnimation();
         }
@@ -51,6 +51,11 @@ public class PlayerAnimation : MonoBehaviour
     void AnimateWalk()
     {
         if(!isSprinting && velocity > 1f) { StopSprint(); }
+
+        if(moveInput.x != 0 && moveInput.y == 0)
+        {
+            velocity += Time.deltaTime * acceleration;
+        }
 
         if(moveInput.y > 0f && velocity < velocityMax) //Walk animation is set to 2
         {
