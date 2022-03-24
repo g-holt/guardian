@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerAnimation : MonoBehaviour
 {
+    [SerializeField] float turnSpeed = 2f;
+
     Vector3 moveInput;
     Animator animator;
     
@@ -36,7 +38,7 @@ public class PlayerAnimation : MonoBehaviour
 
     void AnimateMovement()
     {
-        if (moveInput.y == 0)
+        if(moveInput.y == 0)
         {
             SlowAnimation();
         }
@@ -50,11 +52,11 @@ public class PlayerAnimation : MonoBehaviour
     {
         if(!isSprinting && velocity > 1f) { StopSprint(); }
 
-        if (moveInput.y > 0f && velocity < velocityMax) //Walk animation is set to 2
+        if(moveInput.y > 0f && velocity < velocityMax) //Walk animation is set to 2
         {
             velocity += Time.deltaTime * acceleration;
         }
-        else if (moveInput.y < 0f && velocity > -1f) //WalkBackward animation is set to -1 
+        else if(moveInput.y < 0f && velocity > -1f) //WalkBackward animation is set to -1 
         {
             velocity -= Time.deltaTime * deceleration;
         }
