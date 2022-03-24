@@ -193,9 +193,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19ab2234e43c9074cbbc30d91fa492f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnSpeed: 2
   velocity: 0
-  acceleration: 0.5
-  deceleration: 0.5
+  acceleration: 1
+  deceleration: 1.75
 --- !u!114 &1506032623333587536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,7 +209,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8270b598d7084be4aa887e9b86cebe73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 2
+  turnSpeed: 30
 --- !u!1001 &7862721828924933010
 PrefabInstance:
   m_ObjectHideFlags: 0

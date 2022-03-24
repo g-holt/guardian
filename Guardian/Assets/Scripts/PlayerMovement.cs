@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 5f;
+    [SerializeField] float turnSpeed = 5f;
 
     Rigidbody rb;
     Vector3 moveInput;
@@ -13,9 +14,9 @@ public class PlayerMovement : MonoBehaviour
     PlayerAnimation playerAnimation;
     
     bool isMoving;
-    float moveXPos;
     float moveYPos;
     float moveZPos;
+    float moveRotation;
 
 
     void Start()
@@ -33,10 +34,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
-        moveXPos = moveInput.x * moveSpeed * Time.deltaTime;
+        moveRotation = moveInput.x * turnSpeed * Time.deltaTime;
         moveZPos = playerAnimation.velocity * moveSpeed * Time.deltaTime;
 
-        transform.Translate(new Vector3(moveXPos, 0f, moveZPos));
+        transform.Translate(new Vector3(0f, 0f, moveZPos));
+
+        transform.Rotate(0f, moveRotation, 0f, Space.Self);
     }
 
 
